@@ -1,0 +1,80 @@
+body {
+    background:#222;
+    background-image: url('https://source.unsplash.com/random/1920x1080/?clouds,landscape');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+.card {
+    background:#0c4983bb;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    padding: 2em;
+    margin: 1em;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 45px;
+    background:#ffffff25;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+button:hover{
+    background:#ffffff99;
+}
+::placeholder{
+    color: white;
+}
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.6em 1em; 
+    border-radius: 24px;
+    background:#ffffff25;
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+    width:80%;
+}
+h1.temp{
+    margin: 0;
+    margin-bottom: .5em;
+}
+.description{
+    text-transform: capitalize;
+   margin-left: 8px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+.weather.loading::after{
+    visibility: visible;
+    content: "Search City For Today's Weather.";
+    color: white;
+    position: absolute;
+    top: 0%;
+    margin-left: 20px;
+}
