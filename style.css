@@ -164,26 +164,25 @@ ul {
     grid-area: right-column;
     display: grid;
     align-content: center;
-   
-    padding-top: 50px;
-    padding-bottom: 50px;
+   padding-top: 50px;
+    padding-bottom: 70px;
     
 }
 #preview-shadow {
     background-color: var(--previewShadow);
-    width: 300px;
-    height: 150px;
+    width: 270px;
+    height: 155px;
     padding-left: 30px;
     padding-top: 30px;
 }
 #preview {
-    width: 300px;
+    width: 270px;
     border: 2px solid #17a2b8;
     background-color: var(--previewBg);
     padding: 15px;
     position: relative;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     .intro-wrap {
         
         grid-template-columns: 1fr;
@@ -195,6 +194,7 @@ ul {
     }
     .right-column {
         justify-content: center;
+
     }
     
 }
