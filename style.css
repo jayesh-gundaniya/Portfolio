@@ -122,12 +122,14 @@ ul {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    border: 1px solid var(--borderColor);
+    border-radius: 4px;
     box-shadow: black 0 1px 5px;
     margin: 0 auto;
     display: block;
-    border-radius: 50%;
     
+}
+.left-column img:hover {
+    opacity: 0.5;
 }
 
 
@@ -331,6 +333,7 @@ ul {
 }
 
 
+/*--------------Footer-------------*/
 
 .bottom-wrap {
     background-color: var(--secoundryColor);
